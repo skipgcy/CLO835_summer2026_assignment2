@@ -31,7 +31,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/clo835-assignment2:0.2,
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/clo835-assignment2:0.3,
                 ${{ secrets.DOCKERHUB_USERNAME }}/clo835-assignment2:${{ steps.vars.outputs.SHA }}
 
 
